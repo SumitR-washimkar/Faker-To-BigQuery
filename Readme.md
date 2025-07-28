@@ -37,5 +37,5 @@ gcp-etl-faker-datafusion-bigquery/
 ├── extract.py                     ← Python script to generate fake data
 ├── dags/
 │   ├── create_pipeline_dag.py     ← DAG to create the Data Fusion pipeline
-│   └── run_pipeline_dag.py        ← DAG to run the ETL pipeline
+│   └── create_and_run_pipeline_dag.py        ← DAG to create and run the ETL pipeline
 └── README.md                      ← Project overview       
